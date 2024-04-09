@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding-top: 50px;
+}
+
+#contenitore_pagina{
+    height: 1200px;
+    width: 850px;
+    margin: auto;
+    border: 3px solid gray;
+}
+
+#header{
+    background-color: rgb(97, 89, 89);
+    height: 120px;
+    width: 100%;
+}
+
+#titolo_intestazione{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 21px;
+    color: white;
+}
+
+#img_castello_header{
+    height: 75px;
+    width: 60px;
+    position: relative;
+    bottom: 25px;
+    left: 745px;
+}
+
+#colonna_con_link{
+    background-color: darkgray;
+    height: 1000px;
+    width: 200px;
+}
+
+ul{
+    padding-top: 22px;
+    padding-left: 40px;
+}
+
+#contenuto_pagina{
+    position: relative;
+    left: 230px;
+    bottom: 1000px;
+}
+
+#contenuto_pagina>h1{
+    font-size: 22px;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+
+#img_castello{
+    height: 180px;
+    width: 200px;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 243px;
+}
+
+ol{
+    padding-left: 40px;
+}
+
+table{
+    width: 593px;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, td{
+    padding: 5px;
+}
+
+#footer{
+    width: 100%;
+    height: 70px;
+    background-color: lightgreen;
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+    bottom: 938px;
+}
